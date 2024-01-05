@@ -1,0 +1,7 @@
+
+What is Scheduler Management
+- Scheduler decides which process runs,when, and for how long.
+- By Deciding which Process runs next, The scheduler is resposnsible for best utilizing the system.
+- It will take a decesion which process runs next, given a set of runnable processes.
+
+==> MultiTasking
