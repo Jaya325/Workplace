@@ -17,7 +17,7 @@ Process management
 - b) Running: The process (Task) is currently executing on the CPU.
 - c) Ready: The process is waiting for a processor to be allocated to it. Ready processes are waiting for the operating system to assign them a processor so that they can run. 
 - d) Waiting (Blocked): When a process needs to wait for a resource, such as user input or a file towards becoming accessible, it enters the waiting state.
-- e) Terminated or Exit: When a process completes its operation or is terminated by the operating system, it is transferred to the terminated state and awaits removal from memory space.
+- e) Terminated (or Exit): When a process completes its operation or is terminated by the operating system, it is transferred to the terminated state and awaits removal from memory space.
 
 Process Control Block
 - A Process Control Block (PCB) is a data structure used by the operating system to manage information about a running process.
