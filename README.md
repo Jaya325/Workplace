@@ -22,3 +22,7 @@ Process management
 Process Control Block
 - A Process Control Block (PCB) is a data structure used by the operating system to manage information about a running process.
 - PCB contains various pieces of information about a process,like state,pc,cpu registers,memory allocation and other relevent information  allowing the operating system to control and manage the execution of processes.
+
+Memory management
+- Memory management  it will controlling and coordinating computer memory,By ensuring the different processes&application can utilize the computer memory resources.
+- 
