@@ -7,13 +7,13 @@ b) Load Context: The Saved context of the new process should be loded into cpu. 
 c) Switch Execution: The cpu switch from currently running process into new process. This allows the new process to start or resume its execution.
 
 Process management
-- A process is a program in the misddle of the execution
+- A process is a program in the middle of the execution
 - A Process begins it's life when it is created.
 - The fork() system call, which creates a new process by duplicating an existing one.The process that calls fork() is the parent, whereas the new process is the child.
 - The Process exits via the exit() system call.
 - A parent process can know about the status of a terminated child via the wait4().
 - The kernel stores the list of processes in a circular doubly linked list
-a) Forking:-
+* a) Forking:-
 - fork() via the clone() system call.This call takes a series of flags that specify which resources, if any, the parent and child process should share.
-b) 
+* b) 
 
