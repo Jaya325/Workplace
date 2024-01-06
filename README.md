@@ -13,7 +13,8 @@ Process management
 - The Process exits via the exit() system call.
 - A parent process can know about the status of a terminated child via the wait4().
 - The kernel stores the list of processes in a circular doubly linked list
-- a) Forking:-
- fork() via the clone() system call.This call takes a series of flags that specify which resources, if any, the parent and child process should share.
-- b) 
-
+- a) Forking: fork() via the clone() system call.This call takes a series of flags that specify which resources, if any, the parent and child process should share.
+- b) Running: The process (Task) is currently executing on the CPU.
+- c) Ready: The process is waiting for a processor to be allocated to it. Ready processes are waiting for the operating system to assign them a processor so that they can run. 
+- d) Waiting (Blocked): When a process needs to wait for a resource, such as user input or a file towards becoming accessible, it enters the waiting state.
+- e) Terminated or Exit: When a process completes its operation or is terminated by the operating system, it is transferred to the terminated state and awaits removal from memory space.
