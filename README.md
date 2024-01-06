@@ -13,3 +13,7 @@ Process management
 - The Process exits via the exit() system call.
 - A parent process can know about the status of a terminated child via the wait4().
 - The kernel stores the list of processes in a circular doubly linked list
+a) Forking:-
+- fork() via the clone() system call.This call takes a series of flags that specify which resources, if any, the parent and child process should share.
+b) 
+
