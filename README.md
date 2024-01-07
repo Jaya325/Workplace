@@ -25,4 +25,3 @@ Process Control Block
 
 Memory management
 - Memory management  it will controlling and coordinating computer memory,By ensuring the different processes&application can utilize the computer memory resources.
-- 
