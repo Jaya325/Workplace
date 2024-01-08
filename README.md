@@ -42,3 +42,6 @@ Process Control Block
    - Eg : We have two processes A&B. If supose process A wants to communicate the information the process A shares the information to Shared region and then Process B will have access to the region so that the information get's exchanged.
 - Message Passing: The communication takes place by means of messages exchanged beetween the cooperating processes.
   - Eg : Process A wants to communicate with process B. Then Process A will create a message and it will send to the Kernal and the will know it is for Pocess B. So the kernal will send the message to the Process B.
+
+# Scheduler management
+- 
