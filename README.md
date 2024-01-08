@@ -1,13 +1,13 @@
 # Workplace
 # Linux 
 
-Context Switching
+# Context Switching
 - It is a process of Saving & restoring the state of the cpu(central processing unit) so it can switch from one task to another task.
 a) Save Context: The os(operating system) decides it has to switch from one process to another process it saves the current process of the cpu.It saves the details of Program counter,cpu register values, and other relevent information because when it comes back the cpu want to know where to start.
 b) Load Context: The Saved context of the new process should be loded into cpu. This includes Program counter, Register values and other information for the new process to resume it's execution.
 c) Switch Execution: The cpu switch from currently running process into new process. This allows the new process to start or resume its execution.
 
-Process management
+# Process management
 - A process is a program in the middle of the execution
 - A Process begins it's life when it is created.
 - The fork() system call, which creates a new process by duplicating an existing one.The process that calls fork() is the parent, whereas the new process is the child.
@@ -24,7 +24,10 @@ Process Control Block
 - A Process Control Block (PCB) is a data structure used by the operating system to manage information about a running process.
 - PCB contains various pieces of information about a process,like state,pc,cpu registers,memory allocation and other relevent information  allowing the operating system to control and manage the execution of processes.
 
-Memory management
+# Memory management
 - Memory management  it will controlling and coordinating computer memory,By ensuring the different processes&application can utilize the computer memory resources.
 - Pages : The processor’s smallest addressable unit is a byte or a word, the memory management unit typically deals in pages. In every modern system comes with 64-bit architectures have 8KB pages.
+- Static Allocation: Memory is allocated at compile time and remains fixed throughout the program's execution.
+- Dynamic Allocation: Memory is allocated at runtime, and the size can vary as needed.
+- After the allocation of aynamically allocated memory we need to free the memory else it will leades to memory leak.
 - 
