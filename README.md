@@ -32,3 +32,7 @@ Process Control Block
 - After the allocation of aynamically allocated memory we need to free the memory else it will leades to memory leak.
 - Zones : In pages,because of their physical address in memory, cannot be used for certain tasks. Because of this limitation, the kernel divides pages into different zones The kernel uses the zones to group pages of similar properties. the zones do not have any physical relevance but are simply logical groupings used by the kernel to keep track of pages.
 - Segmentation: Divides memory into segments based on the type of data.
+
+# Inter Process Communication (IPC)
+- It is a mechanisms that allows processes in an operating system to communicate with each other.
+-  
