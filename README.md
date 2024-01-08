@@ -44,4 +44,9 @@ Process Control Block
   - Eg : Process A wants to communicate with process B. Then Process A will create a message and it will send to the Kernal and the will know it is for Pocess B. So the kernal will send the message to the Process B.
 
 # Scheduler management
-- 
+- Scheduler decides which process runs,when, and for how long. By Deciding which Process runs next, The scheduler is resposnsible for best utilizing the system. It will take a decesion which process runs next, given a set of runnable processes.
+    - Cooperative Multitasking: Process does not stop running until it voluntary decides to do so.The process voluntarily suspending itself is called yielding.
+    - Preemptive multitasking: When process is to stop running and new process start running. Involunterly Suspending a running process is called premission.
+        - Before the process begins it will give the timeslice for the process.
+        - Depending on the time slice every process will get slice of processor’s time.
+        - It also prevents any one process from monopolizing the processor.
