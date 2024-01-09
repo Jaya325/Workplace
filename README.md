@@ -50,3 +50,4 @@ Process Control Block
         - Before the process begins it will give the timeslice for the process.
         - Depending on the time slice every process will get slice of processor’s time.
         - It also prevents any one process from monopolizing the processor.
+    - Scheduling Algorithms:
