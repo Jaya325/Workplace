@@ -51,3 +51,11 @@ Process Control Block
         - Depending on the time slice every process will get slice of processor’s time.
         - It also prevents any one process from monopolizing the processor.
     - Scheduling Algorithms:
+       - First-Come-First-Serve (FCFS):
+       - Shortest Job Next (SJN):
+       - Round Robin (RR):
+       - Priority Scheduling:
+       - Multilevel Queue Scheduling:
+ 
+# Thread management
+- 
