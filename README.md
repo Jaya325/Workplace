@@ -52,9 +52,9 @@ Process Control Block
         - It also prevents any one process from monopolizing the processor.
     - Scheduling Algorithms:
        - First-Come-First-Serve (FCFS): It will follow the Quee method (FIFO) method. Which means Processes(Program) are executed in the order they arrive.
-       - Shortest Job Next (SJN):
-       - Round Robin (RR):
-       - Priority Scheduling:
+       - Shortest Job Next (SJN): If the process will take less time than the other process the cpu will execute shortest process.
+       - Round Robin (RR): For every process the scheduler will allocate a fixed time slice in circuler order.
+       - Priority Scheduling: Depending upon the user the scheduler will give processes to high (or) low depending on that higher priority processes will get cpu time to complete the   process. 
        - Multilevel Queue Scheduling:
  
 # Thread management
