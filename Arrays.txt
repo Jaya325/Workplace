@@ -1,7 +1,7 @@
 Arrays 
 
 Defination:
-It is a collection of same data type in a contiguous memory unit
+It is a collection of same data type in a contiguous memory location.
 
 Decleration:
 in c programming as we declear 
