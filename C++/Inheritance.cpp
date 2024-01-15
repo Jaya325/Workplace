@@ -1,9 +1,11 @@
 # Inheritance
-// It is popularly used techniq in Opps concepts for code reusability 
-// We are created a base class which contains x,y attributes 
-// Through the base class we are going to create a derived class through we create the objects 
-
-
+/*
+->  It is popularly used techniq in Opps concepts for code reusability 
+->  We are created a base class which contains x,y attributes 
+-> Through the base class we are going to create a derived class through we create the objects 
+There are different types of inheritances 
+*/
+// Single  level Inheritance : A Derived class with only one base class 
 #include<iostream.h>
 using namespace std;
 class base
@@ -17,4 +19,25 @@ int main()
   cin>>x;
   cin>>y;
 }
+
+
+// Multilevel :A Derived class with base class and that base class is derived class of another 
+#include<iostream>
+using namespace std;
+class base{
+public:
+ Cin>>x;
+};
+int main()
+{
+  base b1;
+  b1.x(10);
+}
+
+
+
+// Multiple Inheritance: A derived class with two or more base classes.
+
+
+
 
