@@ -64,5 +64,28 @@ int main()
   b.x=10;
 }
 
-// Hybrid Inheritance: 
+// Hybrid Inheritance: It is a combination of multiple and Heirarchical inheritance.
+#include<iostream>
+using namespace std;
+class base{
+public:
+int x;
+};
+int main()
+{
+  base b;
+  b.x=19;
+}
 
+
+// Multipath Inheritance : A derived class with two base classes and these two base classes have one common base class.
+#include<iostream>
+using namespace std;
+class base{
+int y;
+};
+int main()
+{
+  base b;
+  b,y=10;
+}
