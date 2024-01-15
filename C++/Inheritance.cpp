@@ -41,3 +41,18 @@ int main()
 
 
 
+// Heirarchical Inheritance : Multiple derived classes from the same base class. Eg: We have created a 2 or more Derived classes From the Single Base class 
+#include<iostream>
+using namespace std;
+class base{
+public:
+int x { cout<<"int"<<endl;}
+};
+int main()
+{
+  base b;
+  b.x=10;
+}
+
+// Hybrid Inheritance: 
+
