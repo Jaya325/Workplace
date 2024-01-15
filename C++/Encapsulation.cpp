@@ -1,6 +1,6 @@
 // Encapsulation
 /*  Encapsulation is binding together the data and functions that manipulates those data.
-- > suppose we have class in that class we have data members and member function then we can call it as encapsulation*/
+- > suppose we have class in that class we have data members and member function then we can call it as encapsulation */
 
 Eg: 
 
