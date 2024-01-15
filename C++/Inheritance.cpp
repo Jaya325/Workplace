@@ -37,7 +37,17 @@ int main()
 
 
 // Multiple Inheritance: A derived class with two or more base classes.
-
+#include<iostream>
+using namespace std;
+class base{
+public:
+ int x :{ cout<< "enter the int value" << endl;}
+};
+int main()
+{
+ base b;
+ b.x = 12;
+}
 
 
 
