@@ -6,18 +6,22 @@
 There are different types of inheritances 
 */
 // Single  level Inheritance : A Derived class with only one base class 
-#include<iostream.h>
+#include <iostream>
 using namespace std;
-class base
-public{
-  int x;
-  int y;
+class Vechile{
+public: 
+ void drivevehicle() { cout<<"driving"<<endl; }
+};
+class car : public Vechile{
+public:
+ void getfuel() {cout<< "Tank Full"<<endl;}
 };
 int main()
 {
-  int x,y;
-  cin>>x;
-  cin>>y;
+  car c;
+  c.getfuel();
+  c.drivevehicle();
+  return 0;
 }
 
 
