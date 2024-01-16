@@ -3,8 +3,9 @@
 ->  It is popularly used techniq in Opps concepts for code reusability 
 ->  We are created a base class which contains x,y attributes 
 -> Through the base class we are going to create a derived class through we create the objects 
-There are different types of inheritances 
-*/
+There are different types of inheritances */
+/* Imp : If the constructor is not a public we cannot call from outside of the class */
+
 // Single  level Inheritance : A Derived class with only one base class 
 #include <iostream>
 using namespace std;
@@ -28,30 +29,36 @@ int main()
 // Multilevel :A Derived class with base class and that base class is derived class of another 
 #include<iostream>
 using namespace std;
-class base{
-public:
- Cin>>x;
-};
+class Animal{};
+class dog : public Animal{};
+class GermanShapord : public dog {};
 int main()
 {
-  base b1;
-  b1.x(10);
+ return 0;
 }
-
 
 
 // Multiple Inheritance: A derived class with two or more base classes.
 #include<iostream>
 using namespace std;
-class base{
+class foo{
 public:
- int x :{ cout<< "enter the int value" << endl;}
+foo() { cout<< "ola"<<endl;}
+};
+class foo1{
+public:
+foo1(){ cout<<"hola"<<endl;}
+};
+class good :public foo, public foo1{
+public:
+good(){ cout<<"be ready"<<endl;}
 };
 int main()
 {
- base b;
- b.x = 12;
+good g;
+return 0;
 }
+
 
 
 
