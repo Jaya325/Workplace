@@ -49,7 +49,7 @@ class foo1{
 public:
 foo1(){ cout<<"hola"<<endl;}
 };
-class good :public foo, public foo1{
+class good :public foo, public foo1{   // depending on class we are passing first that it will take we can change what ever we need like foo1,foo also .
 public:
 good(){ cout<<"be ready"<<endl;}
 };
@@ -65,14 +65,17 @@ return 0;
 // Heirarchical Inheritance : Multiple derived classes from the same base class. Eg: We have created a 2 or more Derived classes From the Single Base class 
 #include<iostream>
 using namespace std;
-class base{
+class family{
 public:
-int x { cout<<"int"<<endl;}
+family(){cout<<"Good fellow"<<endl;}
+};
+class mem1: public family {
+public:
+mem1(){ cout<<"family 1"<<endl;}
 };
 int main()
 {
-  base b;
-  b.x=10;
+mem5 j;
 }
 
 // Hybrid Inheritance: It is a combination of multiple and Heirarchical inheritance.
