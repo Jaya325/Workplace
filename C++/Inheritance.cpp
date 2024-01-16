@@ -65,18 +65,19 @@ return 0;
 // Heirarchical Inheritance : Multiple derived classes from the same base class. Eg: We have created a 2 or more Derived classes From the Single Base class 
 #include<iostream>
 using namespace std;
-class family{
+class Human{
 public:
-family(){cout<<"Good fellow"<<endl;}
+void breeting() { cout<<"I am breathing"<<endl;}
 };
-class mem1: public family {
-public:
-mem1(){ cout<<"family 1"<<endl;}
-};
+class boy:public Human{};
+class girl:public Human{};
+class gender :public Human{};
 int main()
 {
-mem5 j;
+boy y;
+y.breathing();
 }
+
 
 // Hybrid Inheritance: It is a combination of multiple and Heirarchical inheritance.
 #include<iostream>
