@@ -1,3 +1,4 @@
+
 // Polymorphism
 /* It is mainly devided into the 2 types 1. Compiletime Polymorphism 2. Run time polymorphism 
 We will see the both with an eg 
@@ -33,3 +34,13 @@ int x;
 public:
 base():x(10){cout<<"base"<<endl;}
 };
+class derived{
+int y;
+public:
+derived():y(20){cout<<"derived"<<endl;}
+};
+int main()
+{
+ derived d;
+ d.y;
+}
