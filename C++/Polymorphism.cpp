@@ -12,7 +12,7 @@ We will see the both with an eg
 using namespace std;
 class base
 {
- Public:
+ public:
  void fun(int x) {cout<<"integer value"<<endl;}
  void fun(float x) {cout<<"Float value"<<endl;}
 };
@@ -25,3 +25,11 @@ int main()
 }
 
 /* Operator Overloading :*/
+/* Function Over riding*/
+#include<iostream>
+using namespace std;
+class base{
+int x;
+public:
+base():x(10){cout<<"base"<<endl;}
+};
