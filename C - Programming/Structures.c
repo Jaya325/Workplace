@@ -5,15 +5,12 @@ Eg:
 #include<stdio.h>
 struct st
 {
-  char name
+  char name[10];
   int age;
   float marks;
-}
+};
 int main()
 {
-  struct st s;
-  s.name="hello";
-  s.age=20;
-  s.marks= 80;
-  printf("%c %d %f\n",s.name,s.age,s.marks);
+  struct st s= {"jaya",10,98.5};
+  printf("%s %d %f\n",s.name,s.age,s.marks);
 }
