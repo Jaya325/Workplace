@@ -12,5 +12,6 @@ void main()
  int i;
  for(i=0;s[i]!='\0';i++)  // Rotating the loop until end of the characters in array
  {
-   Printf("%c\t",s[i]);   // Printing the string
+   printf("%c\t",s[i]);   // Printing the string
  }
+}
