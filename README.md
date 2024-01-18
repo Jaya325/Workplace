@@ -61,4 +61,4 @@ Process Control Block
 - Resource:  https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=There%20are%20two%20types%20of,kernel%20of%20the%20OS%20itself.
 
 # Deadlocks
-- 
+- Plese go through link https://en.wikipedia.org/wiki/Deadlock
