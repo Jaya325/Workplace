@@ -1,12 +1,13 @@
 # Inheritance
-/*
 ->  It is popularly used techniq in Opps concepts for code reusability 
 ->  We are created a base class which contains x,y attributes 
 -> Through the base class we are going to create a derived class through we create the objects 
-There are different types of inheritances */
-/* Imp : If the constructor is not a public we cannot call from outside of the class */
+There are different types of inheritances 
+- Imp : If the constructor is not a public we cannot call from outside of the class */
 
-// Single  level Inheritance : A Derived class with only one base class 
+- Single  level Inheritance : A Derived class with only one base class
+- Eg
+```
 #include <iostream>
 using namespace std;
 class Vechile{
@@ -24,9 +25,10 @@ int main()
   c.drivevehicle();
   return 0;
 }
+```
 
-
-// Multilevel :A Derived class with base class and that base class is derived class of another 
+ Multilevel :A Derived class with base class and that base class is derived class of another 
+ ```
 #include<iostream>
 using namespace std;
 class Animal{};
@@ -36,9 +38,10 @@ int main()
 {
  return 0;
 }
+```
 
-
-// Multiple Inheritance: A derived class with two or more base classes.
+- Multiple Inheritance: A derived class with two or more base classes
+```
 #include<iostream>
 using namespace std;
 class foo{
@@ -58,11 +61,10 @@ int main()
 good g;
 return 0;
 }
+```
 
-
-
-
-// Heirarchical Inheritance : Multiple derived classes from the same base class. Eg: We have created a 2 or more Derived classes From the Single Base class 
+- Heirarchical Inheritance : Multiple derived classes from the same base class. Eg: We have created a 2 or more Derived classes From the Single Base class 
+```
 #include<iostream>
 using namespace std;
 class Human{
@@ -77,9 +79,10 @@ int main()
 boy y;
 y.breathing();
 }
+```
 
-
-// Hybrid Inheritance: It is a combination of multiple and Heirarchical inheritance.
+- Hybrid Inheritance: It is a combination of multiple and Heirarchical inheritance.
+```
 #include<iostream>
 using namespace std;
 class base{
@@ -91,9 +94,10 @@ int main()
   base b;
   b.x=19;
 }
+```
 
-
-// Multipath Inheritance : A derived class with two base classes and these two base classes have one common base class.
+- Multipath Inheritance : A derived class with two base classes and these two base classes have one common base class.
+```
 #include<iostream>
 using namespace std;
 class base{
@@ -104,3 +108,4 @@ int main()
   base b;
   b,y=10;
 }
+```
