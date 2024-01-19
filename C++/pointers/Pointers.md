@@ -1,6 +1,6 @@
 # What is pointers
  - It is a secondary derived data type which is used to store the address of the another variable
-
+'''
 #include<iostream>
 using namespace std;
 int main()
@@ -9,6 +9,7 @@ int main()
   p=&a;
   cout<<*p<<endl;
 }
+'''
 
 # Smart Pointers
 - In c++ this pointers are used to remove the chances of memory leak. There are 3 diffrent types of smart pointers
