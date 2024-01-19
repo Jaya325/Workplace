@@ -1,7 +1,7 @@
 # Abstraction 
   - displaying only essential information and hiding the details
-  - -Data abstraction – This type only shows the required information about the data and hides the unnecessary data.
-    -Control Abstraction – This type only shows the required information about the implementation and hides unnecessary information.
+  - Data abstraction – This type only shows the required information about the data and hides the unnecessary data
+  - Control Abstraction – This type only shows the required information about the implementation and hides unnecessary information.
 -eg:
 ```
 #include <iostream>
