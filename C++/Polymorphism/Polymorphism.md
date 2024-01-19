@@ -5,8 +5,8 @@
      
 We will see the both with an eg 
 1. Compiletime Polymorphism
-   -a) Function Overloading
-   -b) Operator overloading
+   - a) Function Overloading
+   - b) Operator overloading
 2. Runtime Polymorphism
    - Function Overriding
   
