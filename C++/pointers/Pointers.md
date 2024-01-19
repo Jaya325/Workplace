@@ -39,7 +39,7 @@ int main()
 
 # Shared pointers
 -std::shared_ptr is a smart pointer that retains shared ownership of an object through a pointer. Several shared_ptr objects may own the same object.
-
+- Resource go through it https://en.cppreference.com/w/cpp/memory/shared_ptr
 
 
 
