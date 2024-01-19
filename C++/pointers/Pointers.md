@@ -32,3 +32,11 @@ int main()
 {
   unique_ptr<foo>p1(new foo(10));
 }
+
+
+/* Shared pointers */
+/* -std::shared_ptr is a smart pointer that retains shared ownership of an object through a pointer. Several shared_ptr objects may own the same object.*/
+
+
+
+
