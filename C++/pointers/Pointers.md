@@ -1,6 +1,6 @@
 # What is pointers
- - It is a secondary derived data type which is used to store the address of the another variable 
-Example:
+ - It is a secondary derived data type which is used to store the address of the another variable
+
 #include<iostream>
 using namespace std;
 int main()
@@ -34,7 +34,7 @@ int main()
 }
 
 
-# Shared pointers */
+# Shared pointers
 -std::shared_ptr is a smart pointer that retains shared ownership of an object through a pointer. Several shared_ptr objects may own the same object.
 
 
