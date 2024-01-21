@@ -100,12 +100,12 @@ int main()
 ```
 #include<iostream>
 using namespace std;
-class base{
-int y;
-};
+class Human{};
+class youtuber{};
+class Engineer{};
+class Rupesh{};
 int main()
 {
-  base b;
-  b,y=10;
+  return 0;
 }
 ```
