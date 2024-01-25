@@ -10,7 +10,6 @@
 - c) Ready: The process is waiting for a processor to be allocated to it. Ready processes are waiting for the operating system to assign them a processor so that they can run.
 - d) Waiting (Blocked): When a process needs to wait for a resource, such as user input or a file towards becoming accessible, it enters the waiting state.
 - e) Terminated (or Exit): When a process completes its operation or is terminated by the operating system, it is transferred to the terminated state and awaits removal from memory space.
-Every Process will have a seperate Block which we call as PCB
- Proces Control Block (PCB)
+- Every Process will have a seperate Block which we call as Proces Control Block (PCB)
 - A Process Control Block (PCB) is a data structure used by the operating system to manage information about a running process.
 - PCB contains various pieces of information about a process,like state,pc,cpu registers,memory allocation and other relevent information allowing the operating system to control and manage the execution of processes.
