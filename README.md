@@ -22,6 +22,7 @@
 # Deadlocks
 - Plese go through link https://en.wikipedia.org/wiki/Deadlock
 
+# Work Place Ground 
 - This GIT repository contains examples, handbook locations for learning Modern C,C++ and Linux Os. Some of the impprtant aspects covered here are:
   - In C programming
      - Arrays
@@ -35,7 +36,7 @@
      - Polymorphism
      - Encapsulation
      - Templates
-  -In OS cocepts
+  - In OS cocepts
      - IPC
      - Memory management
      - process schedulng
