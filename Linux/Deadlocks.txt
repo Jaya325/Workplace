@@ -1,0 +1,2 @@
+# Deadlocks
+- Plese go through link https://en.wikipedia.org/wiki/Deadlock
