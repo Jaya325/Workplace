@@ -14,8 +14,6 @@
        - Priority Scheduling: Depending upon the user need the scheduler will give processes to high (or) low depending on that higher priority processes will get cpu time to complete the   process. 
        - Multilevel Queue Scheduling:processes are divided into multiple queues based on their priority, with each queue having a different priority level. Higher-priority processes are placed in queues with higher priority levels, while lower-priority processes are placed in queues with lower priority levels.
 
-# Deadlocks
-- Plese go through link https://en.wikipedia.org/wiki/Deadlock
 
 # Work Place Ground 
 - This GIT repository contains examples, handbook locations for learning Modern C,C++ and Linux Os. Some of the impprtant aspects covered here are:
