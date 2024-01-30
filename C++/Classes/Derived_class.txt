@@ -1,0 +1,9 @@
+The more you use C++ the more you’ll be developing classes which require greater
+sophistication. Often you’ll need to add extra functionality to an existing class.
+C++ provides a mechanism to build new classes from old ones
+
+
+class More : public Base {
+int value;
+...
+};
