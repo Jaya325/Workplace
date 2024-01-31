@@ -14,3 +14,4 @@ int main()
   struct st s= {"jaya",10,98.5};
   printf("%s %d %f\n",s.name,s.age,s.marks);
 }
+
