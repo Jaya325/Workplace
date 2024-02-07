@@ -1,6 +1,6 @@
-# In c no data type called string.
-# Collection of characters in c we call as string.
-# A character Array is a string it is ended with a null '\0'.
+/* In c no data type called string.
+ Collection of characters in c we call as string.
+A character Array is a string it is ended with a null '\0'.*/
 
 Example
 /* Program to print the characters of string */
