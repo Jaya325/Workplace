@@ -8,6 +8,7 @@
      - Pointers
      - Strings
      - Structures
+     - Bit Manupulation
   - In C++ Programming
      - Inheritance
      - Abstraction
@@ -19,3 +20,4 @@
      - Memory management.
      - process schedulng.
      - Thead management.
+     - Context Switching
