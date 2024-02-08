@@ -1,13 +1,3 @@
-/*Arrays 
-
-Defination:
-It is a collection of same data type in a contiguous memory unit
-
-Decleration:
-in c programming as we declear 
- int arr[];
- char arr[]; */
-
 //Example:
 // To take input from user 
 
