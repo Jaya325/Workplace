@@ -27,3 +27,15 @@ void main()
   printf("%d",num);
 }
 
+// Example to complementing a bit in a given number
+#include<stdio.h>
+void main()
+{
+  int num,pos;
+  printf("enter the number\n");
+  scanf("%d",&num);
+  printf("enter the position you want to complement \n");
+  scanf("%d",&pos);
+  num=num ^1<<pos;
+  printf("%d",num);
+}
