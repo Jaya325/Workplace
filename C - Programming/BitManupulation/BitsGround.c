@@ -1,4 +1,4 @@
-# Bit Manupulation
+// # Bit Manupulation
 /* Eg About How to set bit, clear ,compliment a bit */
 
 #include<stdio.h>
