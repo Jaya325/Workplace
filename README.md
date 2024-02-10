@@ -18,6 +18,7 @@
   - In OS cocepts
      - IPC.
      - Memory management.
-     - process schedulng.
+     - process Management.
+     - Scheduler management.
      - Thead management.
      - Context Switching
