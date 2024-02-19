@@ -24,3 +24,12 @@ for(i=0;i<5;i++)
  printf("%d",arr[i]); // To print the array which is taken from user
 }
 }
+
+
+// Running loop through integer pointer
+#include<stdio.h>
+int main()
+{
+ int *p,arr[5];
+
+}
