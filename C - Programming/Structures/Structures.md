@@ -14,3 +14,14 @@
     ```
     struct st s;
     ```
+
+# Unions
+- Union is a collection of different datatypes which are in same memory location
+- Eg
+  ```
+   union  u
+  {
+    int i;
+    char ch;
+  };
+  ```
