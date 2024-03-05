@@ -5,6 +5,9 @@ threads just happen to share resources, such as an address space, with other pro
 ```
 clone(CLONE_VM | CLONE_FS | CLONE_FILES | CLONE_SIGHAND, 0);
 ```
-
+- To clear a thread
+'''
+clone();
+'''
 - Resource:
 https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html#:~:text=There%20are%20two%20types%20of,kernel%20of%20the%20OS%20itself
