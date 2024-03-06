@@ -48,7 +48,19 @@ void main()
   int num;
   printf("enter the number\n");
   scanf("%d",&num);
-  num=num<<2; // Here the bit operation is hapening what ever we given number it will multipy with 2 similarly if we need multiplicaton of 3 we can do num<<3 times
+  num=num << 2; // Here the bit operation is hapening what ever we given number it will multipy with 2 similarly if we need multiplicaton of 3 we can do num<<3 times
+  printf("num=%d\t",num);
+}
+
+//Raight shift operators 
+/* To Divide the number we can do the shift operators we can achive */
+#include<stdio.h>
+void main()
+{
+  int num;
+  printf("enter the number\n");
+  scanf("%d",&num);
+  num=num >> 2; // Here the bit operation is hapening what ever we given number it will divide with 2 similarly if we need divide of 3 we can do num >> 3 times
   printf("num=%d\t",num);
 }
 
