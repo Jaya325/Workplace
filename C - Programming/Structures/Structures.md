@@ -14,6 +14,13 @@
     ```
     struct st s;
     ```
+
+# Structure BitFeild Mechanisum
+- When we need to allocate a memory for a variable in the form of bits we will use structue bit feilds
+- syntax:
+  ```
+  datatype variablename:bits;
+  ```
 -----------------------------------------------
 
 # Unions
