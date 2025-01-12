@@ -18,6 +18,8 @@ int main()
 /* Accessing the structure members by pointers */
 Eg:
 #include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
 struct st
 {
  char name[10];
